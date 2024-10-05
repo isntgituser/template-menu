@@ -1,0 +1,18 @@
+{
+  "dependencies": [
+    {
+      "name": "imgui",
+      "features": [
+        "dx11-binding",
+        "freetype",
+        "win32-binding"
+      ]
+    },
+    {
+      "name": "cpr",
+      "features": [
+        "ssl"
+      ]
+    }
+  ]
+}
