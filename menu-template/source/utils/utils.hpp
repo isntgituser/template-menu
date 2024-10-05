@@ -14,9 +14,8 @@ namespace utils::helper
 	* @details The function uses the cpr library to perform an HTTP GET request to the given URL.
 	* If the request is successful (i.e., no HTTP error and a status code of 200), it converts the response text to a vector of bytes.
 	* Otherwise, it throws an exception indicating a failure in downloading the file.
-	* The use of `xorstr_` indicates that a custom macro is being used, possibly for string obfuscation or optimization.
 	*
-	* @note Ensure that the cpr library is correctly configured in your build environment and that `xorstr_` macro is defined elsewhere in your project.
+	* @note Ensure that the cpr library is correctly configured in your build environment.
 	*/
 	std::vector<std::uint8_t> download( const std::string & );
 }
